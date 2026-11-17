@@ -29,8 +29,8 @@ updateCountdown();
 setInterval(updateCountdown, 1000);
 
 function getNextBirthday() {
-  // Start a fresh 45-minute countdown whenever the page is opened.
-  return new Date(Date.now() + 45 * 60 * 1000);
+  // Keep the countdown at zero.
+  return new Date();
 }
 
 function updateCountdown() {
