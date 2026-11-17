@@ -376,6 +376,11 @@ h1 {
   .cute-notes,
   .photo-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .photo-card {
+    min-width: 0;
   }
 
   .countdown {
